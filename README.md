@@ -59,6 +59,7 @@ x = torch.from_numpy(x)
 y = torch.from_numpy(y)
 ```
 将数据从numpy转为tensor
+
 4. 结合基本的网络模板，形成以下代码
 ```
 # coding=utf-8
