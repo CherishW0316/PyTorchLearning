@@ -39,6 +39,8 @@ class net_name(nn.Module):
 1. 为方便绘图，先安装`sudo pip install matplotlib`
 2. 建立文件linear.py
 ```
+# coding=utf-8
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -50,7 +52,7 @@ plt.scatter(x,y,color="red")
 plt.show()
 ```
 运行后会有点状图出现
-![](https://github.com/CherishW0316/PyTorchLearning/blob/master/image/image.png?raw=true)
+![](https://github.com/CherishW0316/PyTorchLearning/blob/master/image/figure_1.png?raw=true)
 3. 
 ```
 x = torch.from_numpy(x)
